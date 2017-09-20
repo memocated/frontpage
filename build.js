@@ -48,6 +48,11 @@ const build = (done) => {
         source: './bower_components',
         destination: './bower_components'
       }))
+      .use(assets({
+        source: './root-files',
+        destination: './'
+      }))
+
   if (isDev)
     builder = builder.use(liveReload({ debug: true }))
 
