@@ -35,6 +35,13 @@
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107698216-1"></script>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2730699.js"></script>
+    <!-- End of HubSpot Embed Code -->
   </head>
 
   <body id="page-top" class="index">
@@ -606,20 +613,11 @@
      init();
     </script>
 
-    <!-- Piwik -->
     <script type="text/javascript">
-     var _paq = _paq || [];
-     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-     _paq.push(['trackPageView']);
-     _paq.push(['enableLinkTracking']);
-     (function() {
-       var u="//landau.fi/piwik/";
-       _paq.push(['setTrackerUrl', u+'piwik.php']);
-       _paq.push(['setSiteId', '4']);
-       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-     })();
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-107698216-1');
     </script>
-    <!-- End Piwik Code -->
   </body>
 </html>
