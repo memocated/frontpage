@@ -33,10 +33,6 @@ const build = (done) => {
       .use(inPlace())
       .use(debug())
       .use(assets({
-        source: './js',
-        destination: './js'
-      }))
-      .use(assets({
         source: './img',
         destination: './img'
       }))
