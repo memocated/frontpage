@@ -1,16 +1,16 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "memocate-frontpage",
+  "title": "Frontpage of Memocate Ltd",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "http://memocate.com",
+  "author": "Daniel Landau",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/memocated/frontpage.git"
   },
   "dependencies": {
     "chokidar-cli": "^1.2.0",
