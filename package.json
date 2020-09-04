@@ -16,7 +16,7 @@
     "chokidar-cli": "^1.2.0",
     "foundation-sites": "^6.4.3",
     "glob-watcher": "^4.0.0",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.5.3",
     "handlebars-helpers": "^0.9.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
